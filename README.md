@@ -4,15 +4,15 @@ This is a simple android application that uses TheMovieDB API to show the trendi
 
 What's been used: 
 
-1.MVVM architecture 
-2.Hilt for dependency injection 
-3.OkHttp/Retrofit 
-4.Kotlin Flow 
-5.Room 
-6.Jetpack Compose 
-7.Coroutines 
-8.Navigation Component 
-9.JUnit
+1.MVVM architecture \n
+2.Hilt for dependency injection \n
+3.OkHttp/Retrofit \n
+4.Kotlin Flow \n
+5.Room \n
+6.Jetpack Compose \n
+7.Coroutines \n
+8.Navigation Component \n
+9.JUnit \n
 
 The application has two screens:
 
