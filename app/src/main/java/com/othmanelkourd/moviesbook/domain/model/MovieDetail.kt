@@ -25,7 +25,7 @@ data class MovieDetail(
     var posterPath: String? = "empty_path",
     @SerializedName("release_date")
     var releaseDate: String,
-    var revenue: Int,
+    var revenue: Long,
     var runtime: Int,
     var status: String,
     var tagline: String,
