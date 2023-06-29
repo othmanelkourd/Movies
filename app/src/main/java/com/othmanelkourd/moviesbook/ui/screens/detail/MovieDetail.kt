@@ -27,6 +27,7 @@ import com.othmanelkourd.moviesbook.ui.theme.AppBackgroundColor
 import com.othmanelkourd.moviesbook.ui.theme.PrimaryTextColor
 import com.othmanelkourd.moviesbook.ui.theme.SecondaryTextColor
 import com.othmanelkourd.moviesbook.utils.toDuration
+import timber.log.Timber
 
 
 @Composable
@@ -137,6 +138,8 @@ fun MovieDetail(movieId: Int) {
                         )
                     }
                 }
+            } else if (it is DataState.Error) {
+                Timber.e(it.exception)
             }
         }
     }
